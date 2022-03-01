@@ -14,6 +14,7 @@
  */
 /*      light colors - used for select dropdown         */
 /*           Font Smoothing      */
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, button, input, select, textarea {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -2592,7 +2593,7 @@ textarea.form-control {
   padding-top: 10px;
 }
 .card.no-transition:hover, .card.card-register:hover, .card.page-carousel:hover {
-  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 10px -4px rgba(255, 255, 255, 0.15);
   transform: none;
   -webkit-transform: none;
   -ms-transform: none;
@@ -2646,7 +2647,7 @@ textarea.form-control {
 }
 
 .card-register {
-  background-color: #FF8F5E;
+  background-color: #e97e1900;
   border-radius: 8px;
   color: #fff;
   max-width: 350px;
