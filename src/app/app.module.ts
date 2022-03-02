@@ -13,12 +13,14 @@ import { ComponentsModule } from './components/components.module';
 import { ExamplesModule } from './examples/examples.module';
 import { IndexComponent } from './components/index/index.component';
 
+import {HttpClientModule} from '@angular/common/http';
+import { ExperienceService } from './service/experience.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,8 +30,9 @@ import { IndexComponent } from './components/index/index.component';
     ComponentsModule,
     ExamplesModule,
     AppRoutingModule,
+    HttpClientModule,
   ],
-  providers: [IndexComponent],
+  providers: [ExperienceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
